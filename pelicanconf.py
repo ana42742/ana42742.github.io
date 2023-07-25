@@ -37,7 +37,7 @@ PLUGINS = ['sitemap', 'post_stats', 'feed_summary']
 SITEURL = 'http://localhost:8000'
 SITETITLE = 'Virtual View'  
 SITESUBTITLE = 'Ideas and Thoughts'
-SITELOGO = '/images/profile.png'
+SITELOGO = '/images/profile.JPG'
 FAVICON = '/images/icons/favicon.png'
 
 # Sitemap Settings
