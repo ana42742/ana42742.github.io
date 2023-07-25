@@ -28,6 +28,9 @@ DEFAULT_PAGINATION = 5
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
+# DISQUS
+DISQUS_SITENAME = 'ana42742'
+
 ### Flex configurations
 
 PLUGINS = ['sitemap', 'post_stats', 'feed_summary']
