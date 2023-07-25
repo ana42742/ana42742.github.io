@@ -7,11 +7,6 @@ import socketserver
 
 from pelican.server import ComplexHTTPRequestHandler
 
-# Local path configuration (can be absolute or relative to fabfile)
-env.deploy_path = 'output'
-DEPLOY_PATH = env.deploy_path
-env.msg = 'Update blog'  # Commit message
-
 # Remote server configuration
 production = 'root@localhost:22'
 dest_path = '/var/www'
@@ -20,6 +15,11 @@ dest_path = '/var/www'
 env.cloudfiles_username = 'my_rackspace_username'
 env.cloudfiles_api_key = 'my_rackspace_api_key'
 env.cloudfiles_container = 'my_cloudfiles_container'
+
+# Local path configuration (can be absolute or relative to fabfile)
+env.deploy_path = 'output'
+DEPLOY_PATH = env.deploy_path
+env.msg = 'Update blog'   # Commit message
 
 # Github Pages configuration
 env.github_pages_branch = "master"
