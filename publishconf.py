@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://username.github.io'
+SITEURL = 'https://ana42742.github.io'
 DOMAIN = SITEURL
 FEED_DOMAIN = SITEURL
 HTTPS = True
